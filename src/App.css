@@ -42,7 +42,7 @@
 body{
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url(D:\git\myapp\src\COMPONENT\giphy.webp);
+  background-image: url(./COMPONENT/giphy.webp);
   background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
