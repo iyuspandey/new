@@ -6,7 +6,7 @@ function Log() {
         <div className="flex min-h-full w-100 justify-center px-6 py-12 lg:px-8 bg-white bg-opacity-10 backdrop-blur-md self-center my-36">
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 <img
-                    className="mx-auto h-10 w-auto"
+                    className="mx-auto h-12 w-auto"
                     src={logo} // Use the imported logo
                     alt="Your Company"
                 />
