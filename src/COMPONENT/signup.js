@@ -45,10 +45,10 @@ function Signup() {
                     >Create Account</button>
                     <div className="text-center text-sm text-grey-dark mt-4">
                         By signing up, you agree to the 
-                        <a className="no-underline border-b border-grey-dark text-grey-dark" href="https://www.youtube.com/watch?v=0Tk-xG7lX3E&list=RDGMEMCMFH2exzjBeE_zAHHJOdxg&start_radio=1&rv=PXiqKIomKV0">
+                        <a className="no-underline border-b border-grey-dark text-grey-dark" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ffuckyougifs%2F&psig=AOvVaw3PHD5zBc9FmempJQmiNYSD&ust=1719151303850000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDcxeiv74YDFQAAAAAdAAAAABAO">
                         <br/> Terms of Service
                         </a> and 
-                        <a className="no-underline border-b border-grey-dark text-grey-dark" href="https://www.youtube.com/watch?v=0Tk-xG7lX3E&list=RDGMEMCMFH2exzjBeE_zAHHJOdxg&start_radio=1&rv=PXiqKIomKV0">
+                        <a className="no-underline border-b border-grey-dark text-grey-dark" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ffuckyougifs%2F&psig=AOvVaw3PHD5zBc9FmempJQmiNYSD&ust=1719151303850000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDcxeiv74YDFQAAAAAdAAAAABAO">
                         &nbsp; Privacy Policy
                         </a>.
                     </div>
