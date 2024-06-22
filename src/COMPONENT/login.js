@@ -1,13 +1,22 @@
-import React from "react";
-import logo from './logo.png'; // Adjust the path to match your directory structure
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import logo from './logo.png'; 
 
 function Log() {
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate();
+
+    const handleSignupRedirect = () => {
+        navigate('/signup');
+    };
+
     return (
         <div className="flex min-h-full w-100 justify-center px-6 py-12 lg:px-8 bg-white bg-opacity-10 backdrop-blur-md self-center my-36">
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 <img
                     className="mx-auto h-12 w-auto"
-                    src={logo} // Use the imported logo
+                    src={logo}
                     alt="Your Company"
                 />
                 <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
@@ -26,6 +35,7 @@ function Log() {
                         </label>
                         <div className="mt-2">
                             <input
+                                value={username} onChange={e => setUsername(e.target.value)}
                                 id="email"
                                 name="email"
                                 type="email"
@@ -55,6 +65,7 @@ function Log() {
                         </div>
                         <div className="mt-2">
                             <input
+                                value={password} onChange={e => setPassword(e.target.value)}
                                 id="password"
                                 name="password"
                                 type="password"
@@ -77,12 +88,12 @@ function Log() {
 
                 <p className="mt-10 text-center text-sm text-gray-500">
                     Not a member?
-                    <a
-                        href="https://example.com/join"
+                    <button
                         className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+                        onClick={handleSignupRedirect}
                     >
                         Join Now!!
-                    </a>
+                    </button>
                 </p>
             </div>
         </div>
@@ -90,5 +101,3 @@ function Log() {
 }
 
 export default Log;
-
-
